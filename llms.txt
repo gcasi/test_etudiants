@@ -1,0 +1,16 @@
+# Le Jardin des Ducs
+
+> Restaurant de cuisine de saison à Dijon, mettant à l’honneur les produits du marché et les spécialités bourguignonnes.
+
+## Pages
+
+- [Accueil](index.html) : présentation du restaurant, de sa philosophie, de son adresse et de ses horaires.
+- [La carte](carte.html) : exemples d’entrées, de plats, de desserts et menu du marché.
+
+## Informations
+
+- Adresse indiquée sur le site : 12 rue de la Chouette, Dijon.
+- Horaires indiqués sur le site : du mardi au samedi, midi et soir.
+- Contact et demandes de réservation : bonjour@lejardindesducs.fr.
+
+Les horaires, l’adresse, la carte et les tarifs affichés sur le site sont à confirmer auprès du restaurant.

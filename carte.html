@@ -3,110 +3,114 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Découvrez la carte de L'Écritoire à Dijon : cuisine bourguignonne maison, produits de saison et suggestions du moment.">
-  <title>La carte — L'Écritoire, bistrot à Dijon</title>
+  <meta name="theme-color" content="#f8f5ee">
+  <meta name="description" content="Découvrez la carte du Jardin des Ducs à Dijon : cuisine de saison, produits bourguignons et menus faits maison.">
+  <title>La carte — Le Jardin des Ducs, Dijon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="L'Écritoire, accueil">
-      <span class="brand-mark" aria-hidden="true">É</span>
-      <span class="brand-name">L'Écritoire<small>BISTROT DE SAISON · DIJON</small></span>
+    <a class="brand" href="index.html" aria-label="Le Jardin des Ducs, accueil">
+      <span class="brand-mark" aria-hidden="true">JD</span>
+      <span class="brand-name">Le Jardin <span>des Ducs</span></span>
     </a>
     <nav class="main-nav" aria-label="Navigation principale">
-      <a class="nav-link" href="index.html">La maison</a>
-      <a class="nav-link active" href="carte.html" aria-current="page">La carte</a>
-      <a class="nav-link" href="chef.html">Le chef</a>
-      <a class="nav-link" href="index.html#infos">Nous trouver</a>
-      <a class="button button-small" href="#menu">À table <span aria-hidden="true">↓</span></a>
+      <a href="index.html">Accueil</a>
+      <a class="active" href="carte.html" aria-current="page">La carte</a>
+      <a class="nav-cta" href="mailto:bonjour@lejardindesducs.fr?subject=Demande%20de%20r%C3%A9servation">Réserver une table <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
   <main>
     <section class="menu-hero">
-      <div class="section-kicker"><span>LA CARTE</span> AU FIL DES SAISONS</div>
-      <h1>Du bon, du <em>local.</em></h1>
-      <p>Une carte courte, faite maison et renouvelée au gré du marché.<br>Les saisons font le menu, les producteurs font le reste.</p>
-      <div class="menu-hero-image">
-        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=1800&amp;q=85" alt="Table garnie de plats à partager préparés avec soin">
-        <span class="menu-image-note">SIMPLE, FRAIS, ET FAIT ICI <span aria-hidden="true">✳</span></span>
-      </div>
+      <p class="eyebrow"><span></span> Le marché nous inspire</p>
+      <h1>La carte <em>du moment.</em></h1>
+      <p>Du bon, du frais, du fait maison. Nos assiettes suivent les saisons et les trouvailles de nos producteurs.</p>
+      <div class="menu-meta"><span>✳ Produits frais & locaux</span><span>✳ Carte renouvelée au fil des saisons</span></div>
     </section>
 
-    <section class="menu-content section-wrap" id="menu">
-      <div class="menu-intro">
-        <span class="section-kicker"><span>01</span> LE MENU</span>
-        <p>Quelques classiques du coin, des idées de saison et une petite place pour les envies du jour.</p>
-      </div>
-      <div class="menu-columns">
-        <section class="menu-category">
-          <div class="category-heading"><span>01</span><h2>Pour commencer</h2></div>
+    <section class="menu-board" aria-label="Menu du restaurant">
+      <div class="menu-column">
+        <div class="menu-category">
+          <div class="category-heading"><span class="category-number">01</span><h2>Pour commencer</h2></div>
+          <p class="category-intro">À partager… ou pas.</p>
           <article class="menu-item">
-            <div class="item-title"><h3>Œufs en meurette</h3><span>12 €</span></div>
-            <p>Œufs pochés, sauce au pinot noir, lard paysan et pain grillé</p>
+            <div class="item-title"><h3>Œuf parfait & crème d’Époisses</h3><span>12 €</span></div>
+            <p>Mouillettes de pain au levain, herbes fraîches</p>
           </article>
           <article class="menu-item">
-            <div class="item-title"><h3>Jambon persillé maison</h3><span>11 €</span></div>
-            <p>Persil frais, cornichons et moutarde à l'ancienne</p>
+            <div class="item-title"><h3>Escargots de Bourgogne</h3><span>14 €</span></div>
+            <p>Les six, beurre persillé et ail doux</p>
           </article>
           <article class="menu-item">
             <div class="item-title"><h3>Velouté du marché</h3><span>9 €</span></div>
-            <p>Légumes de saison, crème légère et noisettes torréfiées</p>
+            <p>Légumes de saison, noisettes torréfiées</p>
           </article>
-        </section>
+        </div>
 
-        <section class="menu-category">
-          <div class="category-heading"><span>02</span><h2>À suivre</h2></div>
+        <div class="menu-category">
+          <div class="category-heading"><span class="category-number">02</span><h2>Les plats</h2></div>
+          <p class="category-intro">Le cœur de la maison.</p>
           <article class="menu-item">
-            <div class="item-title"><h3>Bœuf bourguignon</h3><span>24 €</span></div>
-            <p>Mijoté au pinot noir, pommes de terre fondantes</p>
+            <div class="item-title"><h3>Bœuf bourguignon de nos campagnes</h3><span>24 €</span></div>
+            <p>Cuisson lente au pinot noir, purée maison</p>
+            <span class="item-tag">La maison</span>
           </article>
           <article class="menu-item">
-            <div class="item-title"><h3>Volaille façon Gaston Gérard</h3><span>23 €</span></div>
-            <p>Crème, moutarde et comté, gratin de saison</p>
+            <div class="item-title"><h3>Volaille fermière à la moutarde</h3><span>22 €</span></div>
+            <p>Crème légère, pommes grenailles rôties</p>
           </article>
           <article class="menu-item">
-            <div class="item-title"><h3>Le plat végétal</h3><span>19 €</span></div>
-            <p>Légumes du moment, céréales et herbes fraîches</p>
+            <div class="item-title"><h3>Risotto de petit épeautre</h3><span>19 €</span></div>
+            <p>Champignons de saison, vieux comté</p>
+            <span class="item-tag">Végétarien</span>
           </article>
-        </section>
+        </div>
+      </div>
 
-        <section class="menu-category">
-          <div class="category-heading"><span>03</span><h2>Pour finir</h2></div>
+      <aside class="menu-aside">
+        <div class="menu-category">
+          <div class="category-heading"><span class="category-number">03</span><h2>Pour finir</h2></div>
+          <p class="category-intro">Une dernière douceur.</p>
           <article class="menu-item">
-            <div class="item-title"><h3>Crème brûlée à la vanille</h3><span>9 €</span></div>
-            <p>Fine croûte caramélisée, sablé maison</p>
-          </article>
-          <article class="menu-item">
-            <div class="item-title"><h3>Poire pochée au cassis</h3><span>10 €</span></div>
-            <p>Crème légère et éclats de meringue</p>
+            <div class="item-title"><h3>Pain perdu brioché</h3><span>10 €</span></div>
+            <p>Caramel au beurre salé, glace vanille</p>
           </article>
           <article class="menu-item">
             <div class="item-title"><h3>Fromages de Bourgogne</h3><span>12 €</span></div>
-            <p>Petite sélection affinée, pain de campagne</p>
+            <p>Affinés avec soin, confiture du moment</p>
           </article>
-        </section>
-      </div>
-      <p class="menu-note"><span aria-hidden="true">✳</span> La carte évolue avec les saisons. Une question sur les allergènes ? Notre équipe est là pour vous renseigner.</p>
+          <article class="menu-item">
+            <div class="item-title"><h3>Poire pochée au cassis</h3><span>9 €</span></div>
+            <p>Crème légère à la vanille</p>
+          </article>
+        </div>
+        <div class="lunch-card">
+          <span class="lunch-icon" aria-hidden="true">✳</span>
+          <p class="eyebrow">Le midi, en semaine</p>
+          <h3>Le menu<br><em>du marché</em></h3>
+          <p>Entrée & plat ou plat & dessert, selon l’inspiration du jour.</p>
+          <strong>19 €</strong>
+          <span class="lunch-footnote">Du mardi au vendredi, hors jours fériés</span>
+        </div>
+      </aside>
     </section>
 
-    <section class="menu-cta">
-      <div>
-        <span class="section-kicker">LA TABLE EST PRÊTE</span>
-        <h2>Il ne manque<br>plus que <em>vous.</em></h2>
-      </div>
-      <div class="menu-cta-side">
-        <p>On vous garde une place ? Retrouvez-nous au cœur de Dijon pour un déjeuner ou un dîner tout en douceur.</p>
-        <a class="button button-light" href="index.html#infos">Infos pratiques <span aria-hidden="true">↗</span></a>
-      </div>
+    <section class="menu-note">
+      <span aria-hidden="true">✳</span>
+      <p>Les produits et les saisons ont le dernier mot : la carte peut évoluer. Une allergie ou une question ? <a href="mailto:bonjour@lejardindesducs.fr">Écrivez-nous</a>, nous serons ravis d’en parler.</p>
     </section>
+    <div class="menu-reserve"><p>Une envie de Bourgogne ?</p><a class="button button-dark" href="mailto:bonjour@lejardindesducs.fr?subject=Demande%20de%20r%C3%A9servation">On vous garde une place <span aria-hidden="true">→</span></a></div>
   </main>
 
   <footer class="site-footer">
-    <a class="footer-brand" href="index.html">L'Écritoire<span> · DIJON</span></a>
-    <p>Une cuisine de saison, avec le cœur.</p>
-    <a href="index.html">La maison <span aria-hidden="true">↗</span></a>
-    <span class="copyright">© L'ÉCRITOIRE 2026</span>
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">JD</span><span class="brand-name">Le Jardin <span>des Ducs</span></span></a>
+    <p>Une table dijonnaise, sincèrement.</p>
+    <a href="mailto:bonjour@lejardindesducs.fr">bonjour@lejardindesducs.fr</a>
+    <span class="copyright">© 2026 Le Jardin des Ducs</span>
   </footer>
 </body>
 </html>
